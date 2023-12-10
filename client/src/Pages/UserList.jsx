@@ -328,7 +328,7 @@ const UserList = () => {
         <Modal isOpen={isOpen} onClose={onClose}>
           <ModalOverlay />
           <ModalContent alignItems={"center"} className={style.navbar} maxWidth={'600px'}>
-            <ModalHeader fontSize={"30px"} fontWeight={500} color={"white"}>
+            <ModalHeader fontSize={"30px"} fontWeight={500}  >
               {UpdateUser ? "Update User" : "Edit User"}
             </ModalHeader>
             <ModalCloseButton />
